@@ -1,5 +1,11 @@
 cmake_minimum_required(VERSION 3.12)
 
+# Cross Compile
+#set(CMAKE_SYSTEM_NAME Linux)
+#set(CMAKE_SYSTEM_PROCESSOR arm)
+#set(CMAKE_C_COMPILER "/sdk/unv/gcc-sigmastar-9.1.0-2019.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc")
+#set(CMAKE_CXX_COMPILER "/sdk/unv/gcc-sigmastar-9.1.0-2019.11-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++")
+
 if(POLICY CMP0090)
     cmake_policy(SET CMP0090 NEW)
 endif()
